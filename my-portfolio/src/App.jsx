@@ -1,12 +1,15 @@
 import './App.css'
 import NavigationMenu from './components/NavigationMenu'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
 
 function App() {
 
   return (
     <>
       <NavigationMenu/>
-      <h1 className='text-white'>asdfasfds</h1>
+      <Home/>
+      <Projects/>
     </>
   )
 }

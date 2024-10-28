@@ -22,3 +22,7 @@ nav{
 #close-btn{
     background-image: url(assets/icons/close.png);
 }
+
+#project-bg{
+    background-color: #1f1e1e;
+}

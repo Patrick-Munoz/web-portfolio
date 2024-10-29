@@ -1,5 +1,6 @@
 import './App.css'
 import NavigationMenu from './components/NavigationMenu'
+import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <Projects/>
       <Skills/>
+      <Contact/>
     </>
   )
 }

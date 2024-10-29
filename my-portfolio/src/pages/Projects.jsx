@@ -40,7 +40,6 @@ const mobileExactSystem = [
 
 
 function Projects(){
-
     return(
         <>
             <main className="text-white flex flex-col items-center">

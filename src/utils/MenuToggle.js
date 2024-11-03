@@ -17,3 +17,5 @@ function MenuClose(){
     menu.style.display = "block";
     close.style.display = "none"
 }
+
+export {MenuOpen, MenuClose};

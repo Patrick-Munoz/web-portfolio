@@ -14,7 +14,7 @@ const cardData = {
 function Skills(){
     return(
         <>
-            <h1 className="font-bold text-3xl mt-2 text-white text-center">SKILLS</h1>
+            <h1 className="font-bold text-3xl mt-3 text-white text-center 2xl:text-6xl" id="skills">SKILLS</h1>
             <section className="columns-2 p-4">
                 {
                     Object.entries(cardData).map(([key, value]) =>

@@ -15,6 +15,10 @@ nav{
     background-color: #1f1e1e;
 }
 
+#navigation-list{
+    background-color: #1f1e1e;
+}
+
 #menu-btn{
     background-image: url(assets/icons/menu.png);
 }

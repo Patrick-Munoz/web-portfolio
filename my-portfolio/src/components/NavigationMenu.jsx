@@ -6,10 +6,11 @@ function NavigationMenu(){
                 <button type="button" onClick={MenuOpen} id="menu-btn" className="bg-no-repeat bg-cover p-4"></button>
                 <button type="button" onClick={MenuClose} id="close-btn" className="bg-no-repeat bg-cover p-4 hidden"></button>
             </div>
-            <ul className="mt-5 hidden" id="navigation-list">
-                <li className="text-white text-2xl mt-2 text-right">HOME</li>
-                <li className="text-white text-2xl mt-2 text-right">PROJECTS</li>
-                <li className="text-white text-2xl mt-2 text-right">SKILLS</li>
+            <ul className="hidden absolute right-0 w-full" id="navigation-list">
+                <li className="text-white text-2xl mt-2 text-right"><a href="#home">HOME</a></li>
+                <li className="text-white text-2xl mt-2 text-right"><a href="#project">PROJECTS</a></li>
+                <li className="text-white text-2xl mt-2 text-right"><a href="#skills">SKILLS</a></li>
+                <li className="text-white text-2xl mt-2 text-right"><a href="#contact-info">CONTACT</a></li>
             </ul>
         </nav>
     )

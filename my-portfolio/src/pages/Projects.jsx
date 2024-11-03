@@ -42,57 +42,59 @@ const mobileExactSystem = [
 function Projects(){
     return(
         <>
-            <main className="text-white flex flex-col items-center">
-                <h1 className="font-bold text-3xl mt-2">Projects</h1>
-                <h2 className="text-2xl mt-2">Library Management Project</h2>
-                <div className="max-w-lg">
-                    <ProjectCards>
-                        {
-                            libraryManagement.map((url) =>
-                                <img src={url} className="size-full"/>
-                            )
-                        }
-                    </ProjectCards>
-                </div>
-                <h2 className="text-2xl mt-2">Exact Landing Page</h2>
-                <div className="max-w-lg">
-                    <ProjectCards>
-                        {
-                            landingPage.map((url) =>
-                                <img src={url} className="size-full"/>
-                            )
-                        }
-                    </ProjectCards>
-                </div>
-                <h2 className="text-2xl mt-2">Exact System</h2>
-                <div className="max-w-lg">
-                    <ProjectCards>
-                        {
-                            exactSystem.map((url) =>
-                                <img src={url} className="size-full"/>
-                            )
-                        }
-                    </ProjectCards>
-                </div>
-                <h2 className="text-2xl mt-2">Mobile Exact Landing Page</h2>
-                <div className="max-w-lg mx-3">
-                    <ProjectCards>
-                        {
-                            mobileLandingPage.map((url) =>
-                                <img src={url} className="size-full"/>
-                            )
-                        }
-                    </ProjectCards>
-                </div>
-                <h2 className="text-2xl mt-2">Mobile Exact System</h2>
-                <div className="max-w-lg mx-3">
-                    <ProjectCards>
-                        {
-                            mobileExactSystem.map((url) =>
-                                <img src={url} className="size-full"/>
-                            )
-                        }
-                    </ProjectCards>
+            <main className="text-white text-center" id="project">
+                <h1 className="font-bold text-3xl mt-3 2xl:text-6xl">Projects</h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 md-grid-rows-3">
+                    <div className="max-w-lg md:row-start-1 md:mx-auto">
+                        <h2 className="text-2xl mt-2 2xl:text-4xl">Exact System</h2>
+                        <ProjectCards>
+                            {
+                                exactSystem.map((url) =>
+                                    <img src={url} className="size-full"/>
+                                )
+                            }
+                        </ProjectCards>
+                    </div>
+                    <div className="max-w-lg md:row-start-1 md:mx-auto">
+                        <h2 className="text-2xl mt-2 2xl:text-4xl">Exact Landing Page</h2>
+                        <ProjectCards>
+                            {
+                                landingPage.map((url) =>
+                                    <img src={url} className="size-full"/>
+                                )
+                            }
+                        </ProjectCards>
+                    </div>
+                    <div className="max-w-lg md:row-start-2 md:col-span-2 md:mx-auto">
+                        <h2 className="text-2xl mt-2 2xl:text-4xl">Library Management Project</h2>
+                        <ProjectCards>
+                            {
+                                libraryManagement.map((url) =>
+                                    <img src={url} className="size-full"/>
+                                )
+                            }
+                        </ProjectCards>
+                    </div>
+                    <div className="max-w-lg mx-3 md:row-start-3 md:max-w-sm md:mx-auto">
+                        <h2 className="text-2xl mt-2 2xl:text-4xl">Mobile Exact Landing Page</h2>
+                        <ProjectCards>
+                            {
+                                mobileLandingPage.map((url) =>
+                                    <img src={url} className="size-full"/>
+                                )
+                            }
+                        </ProjectCards>
+                    </div>
+                    <div className="max-w-lg mx-3 md:row-start-3 md:max-w-sm md:mx-auto">
+                        <h2 className="text-2xl mt-2 2xl:text-4xl">Mobile Exact System</h2>
+                        <ProjectCards>
+                            {
+                                mobileExactSystem.map((url) =>
+                                    <img src={url} className="size-full"/>
+                                )
+                            }
+                        </ProjectCards>
+                    </div>
                 </div>
             </main>
         </>

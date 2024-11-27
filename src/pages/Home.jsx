@@ -10,7 +10,7 @@ function Home(){
                     I led the team and played a key role in developing the School of Exact Colleges of Asia website,
                     Let’s Talk!
                 </p>    
-                <button type="button" className="bg-white text-black p-3 rounded font-bold mt-2 md:w-1/4" id="contact"><a href="#contact-info">Contact Me</a></button>
+                <a href="#contact-info"><button type="button" className="bg-white text-black p-3 rounded font-bold mt-2 md:w-1/4" id="contact">Contact Me</button></a>
             </div>
             <img src="./patrick-munoz.png" alt="My Profile" className="size-74 md:size-2/5"/>
         </section>

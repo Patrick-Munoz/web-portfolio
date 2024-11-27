@@ -6,13 +6,13 @@ function Home(){
                 <div className="font-black text-3xl md:text-4xl 2xl:text-7xl">Welcome!</div>
                 <div className="font-black text-4xl md:text-5xl 2xl:text-8xl">I'm Patrick Munoz</div>
                 <p className="2xl:text-3xl">
-                    I'm a recent Information Systems graduate with a passion for web development. 
+                    I'm a 4th year Information System Student with a passion for web development. 
                     I led the team and played a key role in developing the School of Exact Colleges of Asia website,
                     Let’s Talk!
                 </p>    
                 <button type="button" className="bg-white text-black p-3 rounded font-bold mt-2 md:w-1/4" id="contact"><a href="#contact-info">Contact Me</a></button>
             </div>
-            <img src="./src/assets/images/patrick-munoz.png" alt="My Profile" className="size-74 md:size-2/5"/>
+            <img src="./patrick-munoz.png" alt="My Profile" className="size-74 md:size-2/5"/>
         </section>
     )
 }

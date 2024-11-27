@@ -1,14 +1,14 @@
 import SkillCards from "../components/SkillsCards";
 
 const cardData = {
-    "HTML": "../src/assets/icons/html.png",
-    "CSS": "../src/assets/icons/css.png",
-    "JAVSCRIPT": "../src/assets/icons/javascript.png",
-    "PYTHON": "../src/assets/icons/python.png",
-    "TAILWIND": "../src/assets/icons/tailwind.png",
-    "REACT": "../src/assets/icons/react.png",
-    "NODE": "../src/assets/icons/node.png",
-    "MYSQL": "../src/assets/icons/mysql.png"
+    "HTML": "../html.png",
+    "CSS": "../css.png",
+    "JAVSCRIPT": "../javascript.png",
+    "PYTHON": "../python.png",
+    "TAILWIND": "../tailwind.png",
+    "REACT": "../react.png",
+    "NODE": "../node.png",
+    "MYSQL": "../mysql.png"
 };
 
 function Skills(){

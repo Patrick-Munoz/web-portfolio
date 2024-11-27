@@ -1,6 +1,6 @@
 @font-face {
     font-family: "montserrat";
-    src: url(../public/font/Montserrat-Regular.otf);
+    src: url(../public/Montserrat-Regular.otf);
 }
 
 *{
@@ -20,11 +20,11 @@ nav{
 }
 
 #menu-btn{
-    background-image: url(assets/icons/menu.png);
+    background-image: url(../public/menu.png);
 }
 
 #close-btn{
-    background-image: url(assets/icons/close.png);
+    background-image: url(../public/close.png);
 }
 
 #project-bg{

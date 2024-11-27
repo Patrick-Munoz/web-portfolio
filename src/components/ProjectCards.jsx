@@ -13,10 +13,10 @@ function ProjectCards({children: slides}){
             <div className="flex transition-transform ease-out duration-500" style={{ transform: `translateX(-${curr * 100}%)` }}>{slides}</div>
             <div className="absolute inset-0 flex items-center justify-between">
                 <button type="button" onClick={prev} className={buttonDesign}>
-                    <img src="../src/assets/icons/left.png" alt="Previous" className="size-8 p-2"/>
+                    <img src="../left.png" alt="Previous" className="size-8 p-2"/>
                 </button>
                 <button type="button" onClick={next} className={buttonDesign}> 
-                    <img src="../src/assets/icons/right.png" alt="Next" className="size-8 p-2"/>
+                    <img src="../right.png" alt="Next" className="size-8 p-2"/>
                 </button>
             </div>
         </div>
